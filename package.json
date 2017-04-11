@@ -1,0 +1,46 @@
+{
+  "name": "redgen",
+  "version": "0.1",
+  "description": "A NodeJS tool to automate redmine workflows.",
+  "preferGlobal": "true",
+  "directories": {
+    "bin": "bin",
+    "test": "test"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.2",
+    "istanbul": "^0.3.13",
+    "jasmine-node": "^1.14.5",
+    "rewire": "^2.3.1"
+  },
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "colors": "^1.0.3",
+    "commander": "^2.7.1",
+    "moment": "^2.9.0",
+    "nconf": "^0.7.1",
+    "open": "0.0.5",
+    "swig": "^1.4.2",
+    "sync-request": "^2.0.1"
+  },
+  "scripts": {
+    "test": "istanbul cover jasmine-node --captureExceptions spec/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pedropb/redgen.git"
+  },
+  "keywords": [
+    "Redmine",
+    "CLI",
+    "Batch",
+    "Automation",
+    "REST"
+  ],
+  "author": "Pedro Baracho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pedropb/redgen/issues"
+  },
+  "homepage": "https://github.com/pedropb/redgen"
+}
